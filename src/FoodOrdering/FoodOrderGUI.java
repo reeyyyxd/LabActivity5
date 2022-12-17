@@ -87,7 +87,14 @@ public class FoodOrderGUI extends JFrame {
                         price = price - disprice;
 
                     }
-
+                    if(selectbox == false) {
+                        throw new Exception("Input Something");
+                    }
+                    JOptionPane.showMessageDialog(OrderPanel, "The total price is Php " + String.format("%.2f", price));
+                }
+                catch (Exception g) {
+                    JOptionPane.showMessageDialog(null,g.getMessage());
+                }
 
             }
         });
