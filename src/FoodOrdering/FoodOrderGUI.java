@@ -18,4 +18,14 @@ public class FoodOrderGUI extends JFrame {
     private JRadioButton rb5;
     private JRadioButton rb10;
     private JRadioButton rb15;
+
+
+    public FoodOrderGUI() {
+    }
+
+
+    public static void main(String[] args) {
+
+    }
 }
+
