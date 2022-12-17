@@ -196,6 +196,7 @@
             </constraints>
             <properties>
               <font size="24"/>
+              <selected value="false"/>
               <text value="10% Off"/>
             </properties>
           </component>
@@ -251,4 +252,13 @@
       </grid>
     </children>
   </grid>
+  <buttonGroups>
+    <group name="Discount">
+      <member id="3a74f"/>
+      <member id="3a74f"/>
+      <member id="97d65"/>
+      <member id="aa6ea"/>
+      <member id="a042b"/>
+    </group>
+  </buttonGroups>
 </form>
