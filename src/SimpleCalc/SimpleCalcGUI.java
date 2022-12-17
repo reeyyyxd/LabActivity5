@@ -40,7 +40,13 @@ public class SimpleCalcGUI extends JFrame {
                             break;
                     }
                     lblResult.setText(Integer.toString(equation));
-
+                }catch(NumberFormatException f){
+                    JOptionPane.showMessageDialog(null, "Wrong input!");
+                }catch(NullPointerException h) {
+                    JOptionPane.showMessageDialog(null, "Wrong input!");
+                }catch(ArithmeticException g){
+                    JOptionPane.showMessageDialog(null, "Cannot divide zero!");
+                }
             }
         });
     }
